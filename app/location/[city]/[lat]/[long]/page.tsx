@@ -28,7 +28,7 @@ async function WeatherPage({ params: { city, lat, long } }: Props) {
       current_weather: 'true',
       longitude: long,
       latitude: lat,
-      timezone: 'IST',
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
     },
   });
 
