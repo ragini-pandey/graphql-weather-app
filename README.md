@@ -43,6 +43,7 @@ Fetch real-time weather data with GraphQL queries and display it in a clean UI.
 
 ## 📁 Project Structure
 
+```
 .
 ├── app/                    # Next.js app route components
 ├── components/             # UI components
@@ -56,6 +57,7 @@ Fetch real-time weather data with GraphQL queries and display it in a clean UI.
 ├── tailwind.config.js
 ├── tsconfig.json
 └── README.md
+```
 
 ------------------------------------------------------------
 
@@ -69,19 +71,27 @@ Fetch real-time weather data with GraphQL queries and display it in a clean UI.
 
 ### Environment Variables
 
-Create a `.env.local` in your project root:
+Create a `.env.local` file in the project root:
 
+```env
 OPENAI_API_KEY=your_openai_api_key
 API_URL=your_stepzen_endpoint_url
 NEXT_PUBLIC_STEPZEN_API_KEY=your_stepzen_api_key
+```
 
 ### Installation & Running
 
+```bash
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
 # Open http://localhost:3000
 
-npm run build && npm start   # production
+# Build & run production
+npm run build && npm start
+```
 
 ------------------------------------------------------------
 
@@ -107,9 +117,11 @@ You can inspect the GraphQL playground at your StepZen endpoint for more details
 
 ## 🧪 Scripts
 
-dev     – start dev server
-build   – build for production
-start   – run production server
-lint    – run ESLint
+| Script | Description              |
+|--------|--------------------------|
+| dev    | Start dev server         |
+| build  | Build for production     |
+| start  | Run production server    |
+| lint   | Run ESLint               |
 
-----------------------------------------------------------
+------------------------------------------------------------
