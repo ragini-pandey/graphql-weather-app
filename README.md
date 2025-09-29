@@ -3,6 +3,12 @@
 An interactive weather app built with **Next.js**, **TypeScript**, **GraphQL**, and **StepZen**.
 Fetch real-time weather data with GraphQL queries and display it in a clean UI.
 
+## 🖼️ Screenshots
+
+![Intro Screen](https://github.com/ragini-pandey/graphql-weather-app/blob/master/public/Screenshot-1.png)
+![Loading Screen](https://github.com/ragini-pandey/graphql-weather-app/blob/master/public/Screenshot-2.png)
+![Dashboard Screen](https://github.com/ragini-pandey/graphql-weather-app/blob/master/public/Screenshot-3.png)
+
 ------------------------------------------------------------
 
 ## 🧭 Table of Contents
